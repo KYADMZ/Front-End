@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .lista-receta, .receta-detalles {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .recipe-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }

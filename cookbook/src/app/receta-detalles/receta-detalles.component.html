@@ -1,0 +1,7 @@
+<h2>{{ receta.titulo }}</h2>
+<h3>Ingredientes</h3>
+<ul>
+        <li *ngFor="let Ingredientes of receta.Ingredientes">{{ Ingredientes }}</li>       
+</ul>
+<h3>Instrucciones</h3>
+<p>{{ receta.Instrucciones}}</p>
